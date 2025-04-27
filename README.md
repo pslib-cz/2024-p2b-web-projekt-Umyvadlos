@@ -5,8 +5,9 @@ Tento web je zaměřen na ukázku amatérských děl skupiny VLP.
 
 Struktura webu
 Domů - Základní představení webu
-Umění - Galerie s obrázky a danými autory
+Umění - Galerie s obrázky a danými autory, od každého člena jsem vybral jeden ikonický kousek.
 Kontakty - Kontaktní údaje členů.
+
 
 
 Figma
