@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/public/icon/Grey Modern Elegance Home Lifestyle Logo 1.svg" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>VLP - Umění</title>
+    <script type="module" crossorigin src="/2024-p2b-web-projekt-Umyvadlos/assets/modulepreload-polyfill-B5Qt9EMX.js"></script>
+    <script type="module" crossorigin src="/2024-p2b-web-projekt-Umyvadlos/assets/hamburger-DzGNCfwF.js"></script>
+    <script type="module" crossorigin src="/2024-p2b-web-projekt-Umyvadlos/assets/main-Bgzv3cQd.js"></script>
+    <link rel="stylesheet" crossorigin href="/2024-p2b-web-projekt-Umyvadlos/assets/style-BDF-BB5Y.css">
+  </head>
+
+  <body>
+
+    <div class="container">
+      <nav class="nav-menu topmenu">
+        <div class="logo">
+          <img src="/2024-p2b-web-projekt-Umyvadlos/assets/grayicon-B5wTQh-v.svg" alt="VLP" width="50" height="50">VLP
+        </div>
+        <ul id="bottommenu">
+          <li class="cara"><a href="../index.html">Domov</a></li>
+          <li class="cara"><a href="../galerie/galerie.html">Galerie</a></li>
+          <li><a href="../contacts/kontakty.html">Kontakty</a></li>
+        </ul>
+      </nav>
+
+    <section class="main">
+      <h2>Umění</h2>
+
+
+      <div class="swiper">
+
+        <div class="swiper-wrapper">
+
+          <div class="swiper-slide">
+            <figure>
+            <a class="picture__link" href="/public/images/galerie/IMG_0187.jpg">
+              <img class="picture" src="/2024-p2b-web-projekt-Umyvadlos/assets/IMG_0187-2M635jLR.jpg" alt="OURO">
+              <h3>Ouroboros - Honza Paviensky</h3>
+              <p>Ouroboros (často zobrazovaný jako had nebo drak požírající svůj vlastní ocas) symbolizuje cirkularitu, věčný návrat, nekonečno, neustálou obnovu a cyklus života a smrti.</p>
+            </a>
+          </figure>
+          </div>
+
+          <div class="swiper-slide">
+            <figure>
+            <a class="picture__link" href="/public/images/galerie/sketch-1737491736638.png">
+              <img class="picture__image" src="/2024-p2b-web-projekt-Umyvadlos/assets/sketch-1737491736638-D1riNzUd.png" alt="AVADA">
+              <h4>Avada Kedavra - Vašek Kobr</h4>
+              <p>Avada Kedavra umělecky symbolizuje absolutní konec, chladnou a nevratnou destrukci života, zneužití moci i temnou stránku lidské vůle.</p>
+            </a>
+          </figure>
+          </div>
+          
+
+          <div class="swiper-slide">
+            <figure>
+            <a class="picture__link" href="/public/images/galerie/CzechSamurai.png">
+              <img class="picture__image" src="/2024-p2b-web-projekt-Umyvadlos/assets/CzechSamurai-I4x53box.png" alt="SAMURAI">
+              <h5>CzechSamurai - Jan Kašpárek</h5>
+              <p>Tento obraz symbolizuje nejen fyzickou sílu a dominanci Jiřího Procházky v boji, ale i jeho vnitřní klid a samurajskou filozofii, kdy v kontrastu mezi výbuchem násilí a vyrovnaným postojem bojovníka vystupuje na povrch hlubší myšlenka o cti, sebekázni a ceně vítězství, jež je vyjádřena krvavými stopami a chaotickým pozadím, odrážejícím drsnou realitu zápasu.</p>
+            </a>
+          </figure>
+          </div>
+          
+
+          <div class="swiper-slide">
+            <figure>
+            <a class="picture__link" href="/public/images/galerie/20250109_213001.jpg">
+              <img class="picture__image" src="/2024-p2b-web-projekt-Umyvadlos/assets/20250109_213001-CRMvdUur.jpg" alt="FEELCOLD">
+              <h6>I Feel Cold... - Samuel Pokorný</h>
+              <p>Kresba vyjadřuje moment porážky, opuštění nebo konec boje. Leží zde rytíř opřený o strom, zasažený šípem do hrudi, působí jako někdo, kdo prohrál boj a nyní v tichu čeká na svůj poslední moment.</p>
+            </a>
+          </figure>
+          </div>
+        </div>
+          
+
+        
+      </div>
+        
+
+
+      <div class="swiper-pagination"></div>
+
+    </section>
+
+    <footer>
+      <a href="https://github.com/pslib-cz/2024-p2b-web-projekt-Umyvadlos"><i class="fab fa-github"></i></a>   2025 | designed and coded by Kryštof Kardaus
+    </footer>
+  </div>
+
+  </body>
+
+  <script>
+  let swiper;
+
+
+  function initSwiper() {
+      swiper = new Swiper('.swiper', {
+        slidesPerView: 1,
+        spaceBetween: 10,
+        loop: true,
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true
+        },
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev'
+        }
+      });
+    }
+
+  window.addEventListener('load', initSwiper);
+  window.addEventListener('resize', initSwiper);
+</script>
+
+</html>
