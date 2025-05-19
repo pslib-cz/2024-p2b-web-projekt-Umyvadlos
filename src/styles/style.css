@@ -1,0 +1,258 @@
+@import "normalize.css";
+@import "typography.css";
+
+
+@media (min-width: 360px){
+  
+/* === Navigace === */
+.nav-menu {
+  font-size: 0.9em;
+  border-bottom: black solid 1px;
+}
+
+.topmenu{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#bottommenu {
+  display: flex;
+  gap: 0.5em;
+  margin: 0;
+  padding: 0;
+}
+
+.border-line {
+  border-top: rgb(28, 24, 24) solid 1px;
+  padding-top: 1em;
+}
+
+footer {
+  text-align: center;
+  border-top: black solid 1px;
+  padding: 1em;
+}
+
+ul > li:not(:first-child)::before  {
+  content: "";
+  display: inline-block;
+  width: 1px;
+  height: 25px;
+  background-color: black;
+  margin-right: 9px;
+  vertical-align: middle;
+}
+
+.logo {
+  display: flex;
+  gap: 0.5em;
+  align-items: center;
+}
+
+.picture{
+  width: 100%;
+  height: auto;
+}
+
+.picture__image {
+  border-top: black solid 1px;
+  padding-top: 2em;
+  width: 100%;
+  height: auto;
+
+}
+
+/* === Formulář a kontakt sekce === */
+
+.container {
+  margin: 0 auto;
+  padding: 2em;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+h2 {
+  margin-bottom: 1em;
+}
+
+label {
+  font-weight: 600;
+  color: rgb(91, 89, 89);
+}
+
+input,
+textarea {
+  padding: 1em;
+  border: 1px solid #ccc;
+  border-radius: 13px;
+  background-color: rgb(202, 200, 200);
+}
+
+input:focus,
+textarea:focus {
+  border-color: #0077cc;
+  outline: none;
+}
+
+button[type="submit"] {
+  align-self: center;
+  background-color: #06a5c2;
+  color: white;
+  border: none;
+  padding: 0.7em 1.5em;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.4s;
+}
+
+button[type="submit"]:hover {
+  background-color: #005fa3;
+}
+
+/* === kontakty === */
+
+.osoba{
+  text-align: center;
+}
+
+.direct_kontakt {
+  text-align: center;
+}
+
+#donate {
+  text-align: center;
+  margin-top: 2em;
+}
+
+/* === efekty === */
+
+img:hover {
+  transform: scale(1.15);
+  transition: all 0.3s ease-in-out;
+
+}
+}
+
+
+
+
+
+
+/* === Desktop === */
+
+@media (min-width: 1024px){
+  
+/* === swiper === */
+
+
+.swiper-pagination {
+  display: none;
+}
+
+/* === Navigace === */
+
+.main{
+  margin: 0 auto;
+}
+
+.container {
+  margin: 0em 3em 0em 3em;
+  padding: 2em 0em 0em 0em;
+  border-left: black solid 1px;
+  border-right: black solid 1px;
+}
+
+.nav-menu {
+  font-size: var(--font-fluid);
+  border-bottom: black solid 0px;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-bottom: 1em;
+}
+
+.border-line {
+  border-top: black solid 0px;
+}
+
+/* === layout home === */
+.uvodni{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5em;
+  margin: 3em;
+}
+
+.reverse{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5em;
+  margin: 3em;
+  flex-direction: row-reverse;
+}
+
+.uvodni-text{
+  max-width: 600px;
+}
+
+.uvodniobrazky{
+  max-width: 700px;
+}
+
+/* === galerie sweeper === */
+
+.swiper{
+  max-width: 700px;
+  height: 100%;
+}
+
+.picture__image {
+  border-top: black solid 0px;
+  margin: 0 auto;
+}
+
+/* === kontakty === */
+
+h2{
+  text-align: center;
+  border-top: black solid 1px;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  margin: 0;
+}
+
+
+.direct_kontakt {
+  padding: 1em;
+}
+
+input,
+textarea {
+  padding: 1.5em;
+}
+
+#message {
+    height: 200px;
+  }
+
+.osob_donate{
+  display: flex;
+  align-items: center;
+  gap: 3em;
+  justify-content: center;
+  padding-bottom: 1em;
+}
+
+#donate{
+  margin-bottom: 0em;
+  padding-bottom: 1em;
+}
+
+}
