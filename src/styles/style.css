@@ -56,7 +56,6 @@ ul > li:not(:first-child)::before  {
 }
 
 .picture__image {
-  border-top: black solid 1px;
   padding-top: 2em;
   width: 100%;
   height: auto;
