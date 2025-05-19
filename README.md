@@ -6,7 +6,7 @@ Na co je web zaměřen ?
 Tento web je zaměřen na ukázku amatérských děl skupiny VLP - Vilém Lipold's.
 
 Struktura
-Struktura webu Domů - Základní představení webu, skupiny - co od nás očekavat. 
+Domů - Základní představení webu, skupiny - co od nás očekavat. 
 Umění - Galerie (Swiper) s obrázky a danými autory, od každého člena jsem vybral jeden ikonický kousek. 
 Kontakty - Kontaktní údaje členů, kontaktní formulář.
 

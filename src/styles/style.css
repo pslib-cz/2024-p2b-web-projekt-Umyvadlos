@@ -40,7 +40,7 @@ ul > li:not(:first-child)::before  {
   width: 1px;
   height: 25px;
   background-color: black;
-  margin-right: 9px;
+  margin-right: 11px;
   vertical-align: middle;
 }
 
